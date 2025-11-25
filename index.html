@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ตัวเล่นวิดีโอ M3U8</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="video-container">
+    <video id="videoPlayer" controls autoplay>
+      <source src="https://sv1.getplay-cdn.com/files/c3427b15c22ce2bc1112a927d40e9b45/720/index" type="application/x-mpegURL">
+      สวัสดี! เบราว์เซอร์ของคุณไม่รองรับการเล่นวิดีโอ
+    </video>
+
+    <div class="controls">
+      <button id="playPauseBtn" class="control-btn">⏸️</button>
+      <button id="seekBackBtn" class="control-btn">⏪ 10s</button>
+      <button id="seekForwardBtn" class="control-btn">⏩ 10s</button>
+      <div id="timeDisplay" class="time-display">00:00 / 00:00</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
